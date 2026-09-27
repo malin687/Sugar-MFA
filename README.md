@@ -3,7 +3,7 @@
 This repository contains the main analysis and visualization code, together with selected processed data, supporting the study:
 
 **Nisnik et al. (2026), "Global flows, losses, and circularity of sugar from cultivation to end users," Resources, Conservation & Recycling.**
-https://doi.org/10.1016/j.resconrec.2026.109000
+**DOI:** [10.1016/j.resconrec.2026.109000](https://doi.org/10.1016/j.resconrec.2026.109000)
 
 The study develops a global material flow analysis (MFA) of sugarcane and sugar beet, tracing sugar flows from crop production through processing, trade, consumption, and end use, including losses and circularity across the system.
 
