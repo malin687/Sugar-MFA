@@ -1,3 +1,24 @@
+# ==============================================================================
+# Global Sugar Material Flow Analysis (MFA)
+# ==============================================================================
+#
+# Main analysis script accompanying:
+#
+# Nisnik et al. (2026)
+# "Global flows, losses, and circularity of sugar from cultivation to end users"
+# Resources, Conservation & Recycling
+# https://doi.org/10.1016/j.resconrec.2026.109000
+
+#
+# This script contains the country-level material flow analysis of sugarcane
+# and sugar beet, including production, processing, trade, consumption,
+# losses, and allocation to end-use sectors.
+#
+# The analysis integrates data from multiple external datasets. Some source
+# datasets are not included in this repository and are documented separately
+# in the README.
+#
+# ==============================================================================
 
 install.packages("ggplot2")
 install.packages("dplyr")
@@ -110,8 +131,8 @@ rm(list = ls())
 
 ######################################################################################
 
-# Set the working directory to the folder containing the Excel files
-setwd("C:/Users/nisni/OneDrive/Documents/R")
+# setwd("C:/Users/nisni/OneDrive/Documents/R")  # Original local working directory
+# Run this script with the repository root set as the working directory.
 
 library(readxl)
 

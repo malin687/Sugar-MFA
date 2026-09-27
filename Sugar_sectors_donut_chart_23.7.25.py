@@ -1,14 +1,21 @@
 # -*- coding: utf-8 -*-
 """
-Spyder Editor
+Generate sector-level donut charts for the global sugar MFA.
 
-This is a temporary script file.
+This script creates the sugarcane and sugar beet sector-allocation
+visualizations used in the analysis accompanying:
+
+Nisnik et al. (2026)
+"Global flows, losses, and circularity of sugar from cultivation to end users"
+Resources, Conservation & Recycling.
+https://doi.org/10.1016/j.resconrec.2026.109000
+
 """
 import pandas as pd
 import matplotlib.pyplot as plt
 
 # === Load sugarcane Excel ===
-file_path = r"C:/Users/nisni/OneDrive/Documents/Python/Sugar_donut_chart/Donut_Chart_sectors_data- sugarcane - 23.7.25.xlsx"
+file_path = "Donut_Chart_sectors_data- sugarcane - 23.7.25.xlsx"
 df = pd.read_excel(file_path)
 
 # === Setup orientation and sector order ===
@@ -73,7 +80,7 @@ plt.show()
 
 
 # === Load sugar beet Excel ===
-file_path = r"C:/Users/nisni/OneDrive/Documents/Python/Sugar_donut_chart/Donut_Chart_sectors_data- sugar_beet- 23.7.25.xlsx"
+file_path = "Donut_Chart_sectors_data- sugar_beet- 23.7.25.xlsx"
 df = pd.read_excel(file_path)
 
 # === Orientation and sector order ===
